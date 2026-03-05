@@ -5,7 +5,7 @@ wd = int(input("Enter withdrawal amount: "))
 while not (wd % 100 == 0 or wd % 500 == 0):
     wd = int(input("Enter withdrawal amount (multiple of 100 or 500): "))
 
-if wd < 0:
+if wd < 0: #using if control statement 
     print("Invalid amount")
 elif wd > bal:
     print("Insufficient balance")
