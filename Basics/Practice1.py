@@ -35,7 +35,7 @@ while attempts < 3:
     username = input("Enter your name: ")
     password = input("Enter your password: ")
 
-    if username == "admin" and password == "123":
+    if username == "admin" and password == "123":  #using if control statement
         print("Login Successful")
         break
     else:
