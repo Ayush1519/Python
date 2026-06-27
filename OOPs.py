@@ -185,7 +185,7 @@ class Parent2:
 
 class Child3(Parent2):
     def greet(self):
-        super().greet()
+        super().greet()  #using the super keyword
         print("Hello from Child")
 
 obj = Child3()
