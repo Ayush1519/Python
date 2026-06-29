@@ -155,7 +155,7 @@ class Parent1:
 
 class Child2(Parent1):
     def show(self):
-        print("Inside Child Class (Overridden)")
+        print("Inside Child Class (Overridden)") #printing the output
 
 c = Child2()
 c.show()
