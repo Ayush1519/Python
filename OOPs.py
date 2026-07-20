@@ -31,7 +31,7 @@ class Father:
 
 class Mother:
     def mother_skill(self):
-        print("Mother's Skill: Cooking")
+        print("Mother's Skill: Cooking") #printing the output
 
 class Child(Father, Mother):
     def child_skill(self):
